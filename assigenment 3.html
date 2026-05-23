@@ -1,0 +1,206 @@
+<html>
+  <head>
+    <title>Assignment-03 </title>
+  </head>
+  <body>
+    <h1> Form</h1>
+
+			<form id="form" action="" method="post" enctype="multipart/form-data">
+				
+				<label><b>Full Name</b></label>
+				<input type="text" name="fullname" placeholder="Enter Your Full Name" required>
+
+				<br>
+                <br>
+                <label><b>Email</b></label>
+				<input type="email" name="email" placeholder="Enter Your Email" required>
+
+				<br>
+                <br>
+                <level><b>Password</b></level>
+                <input type="password" name="password" placeholder="Enter Your Password" required>
+                
+                <br>
+                <br>
+                <lebel><b>phone number</b></lebel>
+                <input type="tel" name="phone" placeholder="Enter Your Mobile Number" required>
+
+                <br>
+                <br>
+                <lebel><b>Website</b></lebel>
+                <input type="url" name="website" placeholder="Enter Your Website URL" required
+                >
+                <br>
+                <br>
+
+                <LEVEL><b>Age</b></LEVEL>   
+                <input type="number" name="age" placeholder="Enter Your Age" required>
+
+				<br>
+				<br>
+
+				<label><b>Date of Birth</b></label>
+				<input type="date" name="dob" min="1950-01-01" max="2026-05-23" required>
+
+				<br>
+				<br>
+
+                <level><b>Time of Birth</b></level>
+                <input type="time" name="tob" min="00:00" max="23:59" required>
+
+                <br>
+                <br>
+
+                <level><b>Date of Time </b></level>
+                <input type="datetime-local" name="datetime" min="1950-01-01T00:00" max="2026-05-23T23:59" required>
+
+                <br>
+                <br>
+                <level><b>Favorite Color</b></level>
+                <input type="color" name="color" required>
+                <br>
+                <br>
+                <label><b>Search Box</b></label>
+				<input type="search" name="search" placeholder="Search..." required>    
+                <br>
+                <br>    
+
+				<label><b>Gender</b></label>
+				<input type="radio" name="gender" value="Male" required>Male
+				<input type="radio" name="gender" value="Female" required>Female
+                <input type="radio" name="gender" value="other" required>Other
+
+				<br>
+				<br>
+
+				<label><b>Religion</b></label>
+				<input type="checkbox" name="religion" value="Hindu" required>Hindu
+				<input type="checkbox" name="religion" value="Islam" required>Islam
+				<input type="checkbox" name="religion" value="Christan" required>Christan
+				<input type="checkbox" name="religion" value="Buddho" required>Buddho
+
+
+				<br>
+				<br>
+
+                <level><b>checkbox</b></level>
+                <input type="checkbox" name="checkbox" value="Option 1" required>
+
+				<label><b>Country</b></label>
+					<select>
+						<option>USA</option>
+						<option>Australia</option>
+						<option selected>Bangladesh</option>
+						<option>India</option>
+						<option>France</option>
+						<option>UK</option>
+						<option>Italy</option>
+						<option>Canada</option>
+					</select>
+
+					<br>
+					<br>
+
+                    <label><b>Department</b></label>
+					<select>
+						<option>CSE</option>
+						<option>EEE</option>
+						<option selected>BBA</option>
+						<option>English</option>
+						<option>Architecture</option>
+						<option>ICE</option>
+						<option>Physics</option>
+						<option>Mathematics</option>
+					</select>   
+                    <br>
+                    <br>
+
+
+				<label><b>Phone</b></label>
+					<select>
+						<option>+123</option>
+						<option>+966</option>
+						<option selected>+880</option>
+						<option>+440</option>
+						<option>+769</option>
+						<option>+600</option>
+					</select>
+					<input type="tel" name="phone" min="11" max="16" placeholder="Enter Your Mobile Number" required>
+
+
+
+				<br>
+				<br>
+
+				<label><b>Profile Picture</b></label>
+				<input type="file" name="photo" required>
+
+				<br>
+				<br>
+
+				<label><B>Upload your CV</B></label>
+				<input type="file" name="cv" required>
+
+				<br>
+				<br>
+
+                <level><b>Range</b></level>
+                <input type="range" name="range" min="0" max="100" required>
+                <b>
+                <br>
+                <level><b>hidden input</b></level>
+                <input type="hidden" name="hidden" value="hidden">
+                </b>
+                <b>
+                <level><b>datalist</b></level>
+                <input type="text" name="datalist" list="options">
+                <datalist id="options">
+                    <option value="Option 1">
+                    <option value="Option 2">
+                    <option value="Option 3">
+                </datalist>
+        
+		
+
+                <br>
+				<br>
+
+
+				<label><b>Hidden input</b></label>
+				<input type="hidden" name="hidden" value="hidden">
+
+
+                <br>
+				<br>
+
+                <label><b>Skills</b></label>
+				<input type="checkbox" name="skills" value="HTML" required>HTML
+				<input type="checkbox" name="skills" value="CSS" required>CSS
+                <input type="checkbox" name="skills" value="JavaScript" required>JavaScript
+				<input type="checkbox" name="skills" value="PHP" required>PHP
+				<input type="checkbox" name="skills" value="Laravel" required>Laravel
+
+
+				<br>
+				<br>
+
+
+				<label>Tell me about yourself</label>
+				<textarea rows="8" cols="70" maxlength="250">
+					
+				</textarea>
+
+				
+				<br>
+				<br>
+
+				<input type="submit" name="submit">
+				<input type="reset" name="reset">
+
+
+				<br>
+				<br>
+
+			</form>
+  </body>
+</html>
